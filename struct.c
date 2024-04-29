@@ -18,6 +18,10 @@ Stack * create_Stack(int a, int b, int c)
         return NULL;
     }
     stack->num1 = a;
+    stack->num2 = b;
+    stack->num3 = c;
+
+    return stack;
 }
 
 int main()
